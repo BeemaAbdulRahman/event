@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stages</title>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src='https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js'></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <nav class="navbar navbar-inverse nav">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-3">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+        
+     <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-3">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="rentals.html">RENTALS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">TERMS & CONDITIONS</a></li>
+            <li>
+              <a class="btn btn-outline btn-circle"  data-toggle="collapse" href="#nav-collapse3" aria-expanded="false" aria-controls="nav-collapse3">SEARCH</a>
+            </li>
+          </ul>
+          <div class="collapse nav navbar-nav nav-collapse" id="nav-collapse3">
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search" />
+              </div>
+              <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+            </form>
+          </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+<!-- banner -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/banner_02.jpg" width="100%">
+    </div>
+
+    <div class="item">
+      <img src="images/banner.jpg" width="100%">
+    </div>
+
+    
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height:80px;"></div>
+   <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" >
+ 
+                <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 org">
+                    <div class="thumbnail card">
+                        <div class="img-event">
+                             <a href="#"><img src="images/rent-inner_03.jpg" width="100%" /></a>
+                        </div>
+                       
+                        <div class="caption card-body">
+                         <p align="center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <p style="font-size:16px;">SHOP NAME &nbsp; &nbsp; &nbsp;
+                            <a href="#"><button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#myModal">view</button></a></p>
+                            <h4>Rent : </h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                     
+                  <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 org">
+                    <div class="thumbnail card">
+                        <div class="img-event">
+                             <a href="#"><img src="images/stage.jpg" width="100%" /></a>
+                        </div>
+                       
+                        <div class="caption card-body">
+                            <p align="center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <p style="font-size:16px;">SHOP NAME &nbsp; &nbsp; &nbsp;
+                            <a href="#"><button type="submit" class="btn btn-danger">view</button></a></p>
+                            <h4>Rent : </h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                 <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 org">
+                    <div class="thumbnail card">
+                        <div class="img-event">
+                             <a href="#"><img src="images/rent-inner_07.jpg" width="100%" /></a>
+                        </div>
+                       
+                        <div class="caption card-body">
+                            <p align="center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <p style="font-size:16px;">SHOP NAME &nbsp; &nbsp; &nbsp;
+                            <a href="#"><button type="submit" class="btn btn-danger">view</button></a></p>
+                            <h4>Rent : </h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+       </div>
+                  
+                   
+ 
+  <div class="item col-lg-9 col-md-9 col-sm-9 col-xs-12">
+  
+  
+             
+                  <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 org">
+                    <div class="thumbnail card">
+                        <div class="img-event">
+                             <a href="#"><img src="images/stage_03.jpg" width="100%" /></a>
+                        </div>
+                       
+                        <div class="caption card-body">
+                            <p align="center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <p style="font-size:16px;">SHOP NAME &nbsp; &nbsp; &nbsp;
+                            <a href="#"><button type="submit" class="btn btn-danger">view</button></a></p>
+                            <h4>Rent : </h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                 <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 org">
+                    <div class="thumbnail card">
+                        <div class="img-event">
+                             <a href="#"><img src="images/rent-inner_07.jpg" width="100%" /></a>
+                        </div>
+                       
+                        <div class="caption card-body">
+                            <p align="center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <p style="font-size:16px;">SHOP NAME &nbsp; &nbsp; &nbsp;
+                            <a href="#"><button type="submit" class="btn btn-danger">view</button></a></p>
+                            <h4>Rent : </h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                     <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 org">
+                    <div class="thumbnail card">
+                        <div class="img-event">
+                             <a href="#"><img src=" images/rent-inner_05.jpg " width="100%" /></a>
+                        </div>
+                       
+                        <div class="caption card-body">
+                            <p align="center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <p style="font-size:16px;">SHOP NAME &nbsp; &nbsp; &nbsp;
+                            <a href="#"><button type="submit" class="btn btn-danger">view</button></a></p>
+                            <h4>Rent : </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>                 
+ 
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"></div>
+
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+ 
+     
+      <div class="modal-content">
+        <div class="modal-header">
+        
+          <div><b><h3>STAGES<button type="button" class="close" data-dismiss="modal">&times;</button></h3></b></div>
+        
+        </div>
+        <div class="modal-body">
+
+  
+  <div id="Carousel" class="carousel slide" data-ride="carousel">
+ 
+
+    
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/html_05.jpg"  width="100%"/>
+      </div>
+
+      <div class="item">
+        <img src="images/html_09.jpg"  width="100%"/>
+      </div>
+    
+      <div class="item">
+        <img src="images/html_07.jpg" width="100%"/>
+      </div>
+   
+           
+    </div>
+  
+    <a class="left carousel-control" href="#Carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#Carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    
+  </div>
+
+
+</div>
+<div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button></div>             
+</div>
+      
+    
+      
+</div>
+</div>
+  
+</div>
+
+        
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height:80px"></div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
+<footer class="footer">
+<div class="container bottom_border">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+<h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+<!--headin5_amrc-->
+<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+</div>
+
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="#">Image Rectoucing</a></li>
+<li><a href="#">Clipping Path</a></li>
+<li><a href="#">Hollow Man Montage</a></li>
+<li><a href="#">Ebay & Amazon</a></li>
+<li><a href="#">Hair Masking/Clipping</a></li>
+<li><a href="#">Image Cropping</a></li>
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="#">Remove Background</a></li>
+<li><a href="#">Shadows & Mirror Reflection</a></li>
+<li><a href="#">Logo Design</a></li>
+<li><a href="#">Vectorization</a></li>
+<li><a href="#">Hair Masking/Clipping</a></li>
+<li><a href="#">Image Cropping</a></li>
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+<h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+<!--headin5_amrc ends here-->
+
+<ul class="footer_ul2_amrc">
+<li><a href="#"></a><p>Lorem Ipsum is simply dummy text of the printing...</p></li>
+<li><a href="#"></a><p>Lorem Ipsum is simply dummy text of the printing...</p></li>
+<li><a href="#"></a><p>Lorem Ipsum is simply dummy text of the printing...</p></li>
+</ul>
+<!--footer_ul2_amrc ends here-->
+
+</div>
+
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom:30px;">
+<div class="col-lg-7 col-md-7 col-sm-6 col-xs-6"></div>
+<input class="col-lg-4 col-md-4 col-sm-6 col-xs-12 input-button" placeholder="E-mail"/>
+
+
+<button type="submit" class="col-lg-1 col-md-1 col-sm-2 col-xs-12 footer-button">Submit</button>
+</div>
+
+
+
+
+<div class="container">
+<!--foote_bottom_ul_amrc ends here-->
+<p class="text-center">Copyright @2018 | Designed With by <a href="#">Your Company Name</a></p>
+
+<!--social_footer_ul ends here-->
+</div>
+
+</footer>
+</div>       
+ <button onclick="topFunction()" id="myBtn" title="Go to top"></button>         
+<script>
+$(document).ready(function(e) {
+	
+	
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+
+	
+	
+	
+$("#myBtn").click(
+	
+	function(){
+		
+		
+	$("body,html").animate({
+		
+		scrollTop: $(".nav").offset().top
+		
+		},1000)	
+		
+		
+		
+		}
+	
+	
+	)		
+});
+
+</script>
+        
+                        
+</body>
+</html>
